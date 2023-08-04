@@ -11,7 +11,9 @@ How to use the tool
 
 ### Patterning tool
 The initpattern tools are filling a physical disk or dump file with a special pattern to help analyzing XOR key, ECC, FTL.
+
 **BE VERY CAREFUL TO NOT RUN IT ON THE WRONG DISK! THIS COULD DELETE ALL YOUR DATA!**
+
 Linux
 ```
 perl initpattern.pl /dev/sdX
